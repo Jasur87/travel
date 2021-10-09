@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(/css/travel.img/rowan-heuvel-U6t80TWJ1DM-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.79);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.header img {
+  width: 60px;
+  float: left;
+  margin-left: 5em;
+}
+
+.login-btn {
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-right: 5em;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.header h1 {
+  padding-top: 200px;
+  padding-bottom: 0;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.header p {
+  margin: 18px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.input-group {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin: auto;
+  padding: 2px;
+}
+
+.form-control {
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#00ff7e, #1f3d90);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 11px 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+}
+
+/*features*/
+
+.features {
+  padding: 100px 0;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.price {
+  width: 55px;
+  height: 50px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 12px 0px 0px 11px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 21);
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+}
+
+.feature-img {
+  position: relative;
+}
+
+.rating {
+  padding: 3px;
+  float: right;
+  background: #fff;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+}
+
+.features .fas {
+  font-size: 15px;
+  color: #ff5722;
+}
+
+.rating .far {
+  color: #ff5722;
+}
+
+.feature-details {
+  padding: 20px;
+  text-align: justify;
+}
+
+.feature-details h4 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.fa {
+  margin-right: 5px;
+  color: #ff5722;
+}
+
+.feature-box {
+  box-shadow: 0 0 10px 1px rgba(37, 73, 21);
+  margin-bottom: 30px;
+}
+
+.gallery {
+  padding: 100px 100px;
+  background: #efefef;
+}
+
+.gallery-box img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.gallery-box img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-box h4 {
+  display: block;
+  color: #fff;
+  text-shadow: -2px 2px 2px #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3em;
+}
+
+.gallery-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* banner*/
+
+.banner {
+  height: 80vh;
+  background-image: url(/css/travel.img/pedro-monteiro-HfIex7qwTlI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 10%;
+}
+
+.banner-highlights {
+  padding: 70px 0;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: #fff;
+}
+.booking-btn {
+  width: 150px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 5em;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+/* users feedback*/
+
+.users-feedback {
+  padding: 100px 0;
+}
+
+.user-review {
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+  padding-bottom: 50px;
+}
+
+.user-review p {
+  padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  margin: -30px 0 20px 40%;
+}
+
+.user-review p::before {
+  content: "\201d";
+  display: block;
+  font-size: 100px;
+  color: #6495ed;
+  font-family: sans-serif;
+  left: 20.5%;
+  margin-top: -0.7em;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 100px 20px 15px;
+  background-image: linear-gradient(#2d557d, #9610fb);
+  color: #fff;
+}
+
+.footer-logo {
+  width: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.footer p {
+  width: 250px;
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 35px;
+}
+
+.footer .row .fa {
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.footer hr {
+  margin-top: 10px;
+  background: #efefed;
+  border: 2px solid;
+}
+
+/*--media---*/
+
+@media only screen and (max-width: 700px) {
+  .header img {
+    width: 40px;
+    float: left;
+    margin-left: 1em;
+  }
+
+  .login-btn {
+    width: 60px;
+    font-size: 11px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 60px;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-right: 3em;
+    cursor: pointer;
+    margin-top: 0.3em;
+  }
+
+  .header h1 {
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  .input-group {
+    width: 90%;
+    max-width: 310px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+    margin-top: 7em;
+  }
+  .banner {
+    height: 80vh;
+    background-image: url(/css/travel.img/pedro-monteiro-HfIex7qwTlI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 29%;
+  }
+  .booking-btn {
+    width: 160px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 5em;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: -0.3em;
+  }
+  .gallery {
+    padding: 100px 30px 10px;
+    background: #efefef;
+  }
+
+  .gallery-box img {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 0.5em;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .gallery-box h4 {
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+  }
+  .footer .row .fa {
+    padding-right: 2px;
+    font-size: 15px;
+    text-align: center;
+    margin: 1em;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer h4 {
+    width: 100%;
+    margin-left: -0.4em;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .footer p {
+    width: 100%;
+    font-size: 21px;
+    margin-left: 1em;
+  }
+
+  .footer-logo {
+    padding-bottom: 4em;
+    width: 80px;
+  }
+  .footer .copyright {
+    text-align: center;
+  }
+}
